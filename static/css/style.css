@@ -1,5 +1,9 @@
 /* fonts import */
 @import url("../fonts/octin_sports_rg.ttf");
+
+*{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
@@ -50,6 +54,8 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
 }
+
+
 
 .heading_container h2 {
   position: relative;
@@ -846,3 +852,43 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+.skills__container{
+  margin-top: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap:3vw;
+}
+
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skills img{
+  width: 100px;
+}
+
+.skills p{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.sticky{
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  z-index: 100;
+}
+
+
+#git{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
